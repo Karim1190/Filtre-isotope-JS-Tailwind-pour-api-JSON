@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri avec Isotope et Tailwind CSS</title>
+    <link href="output.css" rel="stylesheet">
+
+</head>
+<body class="font-sans bg-gray-100">
+    <button class="team-filter-button bg-gray-500 text-white px-4 py-2 rounded mr-2 mt-4 hover:bg-gray-700 focus:outline-none focus:shadow-outline-gray active:bg-gray-800 transition duration-300" data-filter="*">Tous</button>
+    <div id="team-menu" class="flex space-x-4 mb-4 mt-4">
+        <!-- Les boutons d'équipes seront ajoutés ici par JavaScript -->
+    </div>
+    <div id="container" class="isotope grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-auto">
+        <!-- Vos éléments seront ajoutés ici par JavaScript -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
